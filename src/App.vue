@@ -1,25 +1,25 @@
 <template>
-  <div class="container">
+  <main class="container">
     <MainPage />
-  </div>
+  </main>
 </template>
 
 <script>
-import MainPage from "./components/MainPage.vue";
+  import MainPage from './views/MainPage.vue'
 
-export default {
-  name: "App",
+  export default {
+    name: 'App',
 
-  components: {
-    MainPage,
-  },
-};
+    components: {
+      MainPage,
+    },
+  }
 </script>
 
 <style lang="scss">
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 10px;
+  }
 </style>

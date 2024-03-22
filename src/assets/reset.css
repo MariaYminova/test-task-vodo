@@ -114,9 +114,7 @@ body {
   box-sizing: border-box;
   font-weight: 400;
   background-color: #EDF1F6;
-  padding: 40px 15px;
-  overflow-x: hidden;
-  cursor: url('./icon/icon-cursor.svg'),auto;
+ 
 }
 
 ol,
